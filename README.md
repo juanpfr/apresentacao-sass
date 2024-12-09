@@ -158,6 +158,9 @@ $font-size: 16px;
 
 Depois de escrever o código SASS, ele precisa ser compilado para gerar o arquivo CSS. Isso pode ser feito através de diversas ferramentas, como:
 
+- **Instalação do compilador SASS (Com Node.js):** 
+  - Comando (exemplo): `npm install -g sass `
+
 - **SASS CLI:** 
   - Comando: `sass input.scss output.css`
 
