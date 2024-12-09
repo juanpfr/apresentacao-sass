@@ -1,0 +1,30 @@
+// _gallery.scss
+.gallery {
+    background-color: $bg-color;
+    padding: 60px 0;
+    text-align: center;
+  
+    h2 {
+      font-size: 2.5em;
+      color: $primary-color;
+      margin-bottom: 20px;
+    }
+  
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+  
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        transition: transform 0.3s;
+  
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  

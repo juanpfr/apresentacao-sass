@@ -1,0 +1,19 @@
+// _base.scss
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: $font-family;
+    background-color: $bg-color;
+    color: $text-color;
+  }
+  
+  .container {
+    width: $container-width;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
