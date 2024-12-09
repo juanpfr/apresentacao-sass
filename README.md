@@ -268,3 +268,58 @@ O SASS é uma ferramenta indispensável no fluxo de trabalho moderno de desenvol
 ---
 
 Essa estrutura cobre os principais pontos sobre SASS e seu uso em comparação ao CSS tradicional. Você pode usar essa base para a apresentação, explicando as funcionalidades e vantagens do SASS de forma clara e objetiva.
+
+Objetivo do Projeto
+O projeto é um site que apresenta destinos populares de viagem ao redor do mundo. A ideia é mostrar informações sobre cidades famosas e oferecer uma galeria com imagens desses destinos. O site terá um design moderno, com um layout responsivo, que se adapta a diferentes tamanhos de tela, como desktops, tablets e celulares.
+
+Estrutura do Site
+O site será dividido em várias seções principais:
+
+Cabeçalho (Header):
+
+Exibe o nome do site "Viagens Incríveis" e uma barra de navegação.
+A barra de navegação contém links para diferentes seções do site: Destinos, Galeria de Imagens e Contato.
+O cabeçalho será estilizado com uma cor de fundo atraente e um texto grande e destacado.
+Destinos Populares:
+
+Uma seção onde são apresentados quatro destinos turísticos famosos, como Paris, Tóquio, Nova York e Londres.
+Cada destino será representado por uma imagem, um título e uma descrição curta sobre o local.
+A seção de destinos usará um grid (ou grade) para organizar os destinos em colunas, o que facilita a visualização e dá um visual moderno ao site.
+A ideia é criar um design limpo e atraente, com efeitos de hover (quando o usuário passa o mouse sobre os destinos) para destacar cada card.
+Galeria de Imagens:
+
+Uma seção dedicada à exibição de mais imagens dos destinos turísticos.
+As imagens serão organizadas em uma grade responsiva, o que significa que o layout das imagens será ajustado automaticamente com base no tamanho da tela.
+Ao passar o mouse sobre as imagens, elas podem sofrer efeitos de zoom para criar uma experiência interativa e interessante.
+Contato:
+
+Uma seção simples com informações de contato, como um e-mail, para que os visitantes possam entrar em contato com os administradores do site.
+Rodapé (Footer):
+
+No final da página, o rodapé exibe informações adicionais sobre o site, como direitos autorais (exemplo: © 2024 Viagens Incríveis | Todos os direitos reservados).
+Uso do SASS
+O SASS é uma extensão do CSS que torna o processo de escrever e gerenciar estilos mais eficiente. Em vez de escrever CSS puro, o SASS oferece recursos poderosos como:
+
+Variáveis: Você pode definir cores, fontes e outros valores uma vez e reutilizá-los em todo o projeto. Por exemplo, você pode definir uma variável para a cor principal do site e usá-la em todos os lugares onde precisar dessa cor, sem precisar escrever o código hexadecimal toda vez.
+
+Mixins: São blocos de código reutilizáveis. Se você precisar de um conjunto específico de estilos em várias partes do seu site (como um efeito de sombra), pode criar um "mixin" e usá-lo sempre que necessário, economizando tempo e tornando o código mais limpo.
+
+Aninhamento de Seletores: No SASS, você pode aninhar seletores dentro de outros seletores, o que torna o código mais legível e organizado. Por exemplo, você pode escrever o estilo de um botão dentro do estilo do seu menu de navegação, tornando a hierarquia mais clara.
+
+Parciais e Imports: O SASS permite dividir o código CSS em arquivos menores, chamados de parciais. Esses arquivos são depois combinados em um único arquivo CSS ao compilar o código. Isso ajuda a manter o código organizado e facilita a manutenção.
+
+Estrutura de Arquivos
+O projeto será organizado em vários arquivos SASS para tornar o código mais modular e reutilizável. Aqui estão os principais arquivos que utilizamos:
+
+_variables.scss: Define as variáveis do projeto, como cores e fontes.
+_mixins.scss: Define os mixins, como efeitos de sombra ou alinhamento centralizado.
+_base.scss: Contém os estilos globais, como reset de estilos (garantindo que o navegador não adicione margens ou preenchimentos extras por padrão) e configurações gerais de layout.
+_header.scss, _destinations.scss, _gallery.scss: Arquivos separados para estilizar as diferentes seções do site, como o cabeçalho, os destinos e a galeria.
+style.scss: Arquivo principal que importa todos os outros arquivos SASS e compila o CSS final.
+Como o SASS Facilita o Desenvolvimento
+Organização: Ao dividir o código em múltiplos arquivos, fica mais fácil de gerenciar e encontrar estilos específicos para cada parte do site.
+Facilidade de Manutenção: Se você precisar alterar a cor principal do site ou o estilo do botão, você pode simplesmente atualizar a variável ou mixin correspondente, e essa alteração será refletida em todo o site.
+Redução de Repetição: Com os mixins e variáveis, você evita a repetição de código, o que torna o projeto mais limpo e fácil de manter.
+Estilos Reutilizáveis: Ao criar mixins e variáveis, você pode reutilizar estilos em várias partes do site sem precisar reescrever o código cada vez.
+Conclusão
+Este projeto é uma forma simples e eficiente de demonstrar o uso de SASS para construir um site moderno e organizado. Usando recursos como variáveis, mixins, aninhamento de seletores e parciais, o código torna-se mais legível, modular e fácil de manter. Além disso, o layout responsivo garante que o site se ajuste bem a diferentes tamanhos de tela, proporcionando uma boa experiência para o usuário, seja em um desktop, tablet ou celular.
