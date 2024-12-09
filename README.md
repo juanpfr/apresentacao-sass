@@ -260,7 +260,7 @@ header {
 
 ---
 
-### **8. Conclusão**
+### **8. Conclusão (Site)**
 
 - O **SASS** traz várias vantagens em relação ao **CSS tradicional**, tornando o código mais organizado e fácil de manter.
 - Com recursos como **variáveis**, **aninhamento**, **mixins**, e **funções**, ele facilita a criação de estilos mais complexos e dinâmicos.
