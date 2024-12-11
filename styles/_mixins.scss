@@ -5,9 +5,9 @@
     align-items: center;
   }
   
-  @mixin box-shadow($color) {
-    -webkit-box-shadow: 0 4px 8px rgba($color, 0.2);
-       -moz-box-shadow: 0 4px 8px rgba($color, 0.2);
-            box-shadow: 0 4px 8px rgba($color, 0.2);
+  @mixin box-shadow {
+    -webkit-box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2);
+       -moz-box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2);
+            box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2);
   }
   
